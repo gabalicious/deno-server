@@ -1,0 +1,7 @@
+allow:
+  - net
+  - read
+
+scripts:
+  start: deno run server.ts
+  # build: deno build
