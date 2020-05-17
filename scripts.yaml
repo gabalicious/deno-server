@@ -4,4 +4,4 @@ allow:
 
 scripts:
   start: deno run server.ts
-  # build: deno build
+  build: parcel watch src/index.html
