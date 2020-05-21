@@ -4,4 +4,4 @@ allow:
 
 scripts:
   start: deno run server.ts
-  build: parcel watch src/index.html
+  build: npx -p parcel-bundler parcel build src/index.html
